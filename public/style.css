@@ -82,4 +82,8 @@ body {
     height: 60vh;
     overflow: hidden;
     border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
 }
