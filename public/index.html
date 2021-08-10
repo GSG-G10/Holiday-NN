@@ -9,14 +9,18 @@
 <body>
     <section class="container">
         <h1 class="main-text" >Holidays and Observances in any country</h1>
+
         <label class="row" for="year">
-           Choose a Year <input type="number" id="year" size="4" autofocus>
+           Choose a Year <input type="text" id="year" size="4" maxlength="4" autofocus>
         </label>
+
         <label class="row" for="country"> Choose a country
         <select id="country" >
             <option value="volvo">helo</option>
           </select>
         </label>
+
+        <button type="submit" class="submit">Enter</button>
         <div class="show-data"></div>
     </section>
 </body>
