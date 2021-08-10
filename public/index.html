@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +10,25 @@
 </head>
 <body>
     <section class="container">
-        <h1 class="main-text" >Holidays and Observances in any country</h1>
+        <h1 class="main-text">Holidays and Observances in any country</h1>
+        <div class="sub-section">
+        <div class="row">          
+            <label for="year">Choose a Year</label>
+            <input type="text" id="year" size="4" maxlength="4" autofocus>
+        </div>
+        
+        <div class="row"> 
+            <label for="country"> Choose a country</label>
+            <select id="country">
+                <option value="volvo">helo</option>
+            </select>
+        </div>
+        
+            <button class="row-sumbit" type="submit" class="submit">Enter</button>
+        </div>
 
-        <label class="row" for="year">
-           Choose a Year <input type="text" id="year" size="4" maxlength="4" autofocus>
-        </label>
-
-        <label class="row" for="country"> Choose a country
-        <select id="country" >
-            <option value="volvo">helo</option>
-          </select>
-        </label>
-
-        <button type="submit" class="submit">Enter</button>
         <div class="show-data"></div>
     </section>
 </body>
+
 </html>
