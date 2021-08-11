@@ -24,7 +24,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a the holidays and working days in any country.
+Oue app helps you find the holidays and working days in any country.
 
 ### Prerequisites
 
