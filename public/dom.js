@@ -43,6 +43,8 @@ const handleError404 = (ErrorMessage) => {
   const Error = createAndAppend('p', subRow, 'error', ErrorMessage);
 };
 
-const handleError500 = (ErrorMessage) => {
+const handleError500 = () => {
   body.textContent = null;
+  const img = createAndAppend('img', body, 'imgError');
+  img.src = '../img/error500.jpg';
 };
