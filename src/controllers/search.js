@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const url = require('url');
 
 const searchHandler = express.Router();
-const apiKey = process.env.API_KEY;
+const apiKey = process.env.api_key;
 
 searchHandler.get('/', (req, res) => {
   const urlObj = url.parse(req.url);
