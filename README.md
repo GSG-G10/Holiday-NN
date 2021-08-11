@@ -49,6 +49,6 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### goal
-    Are you a freelancer? Then you have got to to be     dealing with a lot of instability of work!
-    place and some information like a weather temperture
-    and weather status and some pictuers for this country or city
+Are you a freelancer? Then you have got to to be dealing with a lot of instability of work!
+place and some information like a weather temperture
+and weather status and some pictuers for this country or city
