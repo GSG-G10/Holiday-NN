@@ -1,6 +1,6 @@
+require('env2')('.env');
 const express = require('express');
 const fetch = require('node-fetch');
-require('env2')('.env');
 
 const searchHandler = express.Router();
 const apiKey = process.env.API_KEY;
