@@ -115,3 +115,13 @@ body {
 .date:hover {
     color: rgb(0, 136, 91);;
 }
+
+.error {
+    font-size: 0.8rem;
+    width: 85%;
+    color: rgb(255, 51, 0);
+    border: 5px solid rgb(255, 51, 0);
+    padding: 10px;
+    border-radius: 10px;
+    background-color:black;
+}
