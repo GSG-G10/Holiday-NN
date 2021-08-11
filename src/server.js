@@ -1,8 +1,12 @@
+require('env2')('.env');
 const express = require('express');
 const compression = require('compression');
 const path = require('path');
 const fs = require('fs');
-require('env2')('.env');
+
+const url = require('url');
+
+const fetchNode = require('node-fetch');
 
 const app = express();
 app.use(express.urlencoded({ extended: false }));
@@ -24,6 +28,18 @@ app.get('/getData', (req, res) => {
       res.send(data);
     }
   });
+});
+
+app.get('/getApi', (req, res) => {
+  const urlObj = url.parse(req.url);
+  const queryObj = urlObj.query.split('&');
+  const country = queryObj[0];
+  const year = queryObj[1];
+  const url1 = `https://calendarific.com/api/v2/holidays?&api_key=${process.env.api_key}&country=${country}&year=${year}`;
+
+  fetchNode(url1)
+    .then((response) => response.text())
+    .then((response) => res.send(response));
 });
 
 app.listen(app.get('port'), () => {
