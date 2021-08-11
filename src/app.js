@@ -30,3 +30,5 @@ app.use((err, req, res, next) => {
 app.listen(app.get('port'), () => {
   console.log(`http://localhost:${app.get('port')}`);
 });
+
+module.exports = app;
