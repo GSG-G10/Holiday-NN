@@ -87,7 +87,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     border: 5px solid aquamarine;
 }
 
@@ -103,9 +103,12 @@ body {
 }
 .name {
     width: 65%;
+    font-size: 0.5rem;
 }
 .date {
     width: 25%;
+    font-size: 0.5rem;
+
 }
 
 .name:hover,

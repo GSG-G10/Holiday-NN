@@ -2,12 +2,8 @@ fetch('/getData')
   .then((response) => response.json())
   .then((data) => getDataToOptions(data));
 
-const getApiData = () => {
-  fetch('/getApi')
+const getApiData = (country, year) => {
+  fetch(`/getApi?country=${country}&year=${year}`)
     .then((response) => response.json())
-    // .then((data) => getInformationResult(data));
+    .then((data) => getInformationResult(data.response.holidays));
 };
-
-fetch('/getApi?country=US&year=2020')
-.then((response) => response.json())
-.then((data) => console.log(data))
