@@ -30,3 +30,11 @@ app.use((err, req, res, next) => {
 app.listen(app.get('port'), () => {
   console.log(`http://localhost:${app.get('port')}`);
 });
+
+app.use((req, res, next) => {
+  res.status(404).sendFile('HTMLPAGEERROR404');
+});
+
+app.use((err, req, res, next) => {
+  res.status(500).sendFile('HTMLPAGEERROR500');
+});
