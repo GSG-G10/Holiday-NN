@@ -8,9 +8,9 @@
 <!-- Team Members -->
 ### Team Member
 * [Nour Adawi](https://github.com/NourAdawi)
-* Nizar Zaqout
+* [Nizar Zaqout](https://github.com/Nizar7zak)
 #### Project Access
-[View Demo]() 
+[View Demo](https://freelancer-timing9.herokuapp.com/) 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 ### Built With
