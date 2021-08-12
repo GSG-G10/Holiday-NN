@@ -1,6 +1,6 @@
 <br />
 <h1>
-  <a style="color:coral" href="https://github.com/GSG-G10/Mapi">
+  <a style="color:coral" href="https://github.com/GSG-G10/Holiday-NN">
     Freelancer Timing
   </a>
 </h1>
