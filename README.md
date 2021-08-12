@@ -8,9 +8,9 @@
 <!-- Team Members -->
 ### Team Member
 * [Nour Adawi](https://github.com/NourAdawi)
-* Nizar Zaqout
+* [Nizar Zaqout](https://github.com/Nizar7zak)
 #### Project Access
-[View Demo]() 
+[View Demo](https://freelancer-timing9.herokuapp.com/) 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 ### Built With
@@ -24,7 +24,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a the holidays and working days in any country.
+Oue app helps you find the holidays and working days in any country.
 
 ### Prerequisites
 
@@ -49,6 +49,6 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### goal
-    Are you a freelancer? Then you have got to to be     dealing with a lot of instability of work!
-    place and some information like a weather temperture
-    and weather status and some pictuers for this country or city
+Are you a freelancer? Then you have got to to be dealing with a lot of instability of work!
+place and some information like a weather temperture
+and weather status and some pictuers for this country or city
