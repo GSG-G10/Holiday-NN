@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
-    <title>HOLIDAYS</title>
+    <title>FreeLancer Timing</title>
 </head>
 
 <body>
@@ -20,23 +20,24 @@
       </div>            
         </div>
         <div class='details'>
-            Are you a freelancer? Then you have got to to be dealing with a lot of instability of work! Our app is going to help you find holiday times for all countries so that you can better plan your business!
-            Search for the place, find its holidays, and start planning your work around them!</div>
+            <span class='text'>Are you a freelancer? Then you have got to to be dealing with a lot of instability of work! Our app is going to help you find holiday times for all countries so that you can better plan your business!
+                Search for the place, find its holidays, and start planning your work around them!</span>
+            </div>
         <div class="col">
             <div class="sub-section">
                 <div class="row">
-                    <label for="year">Choose a Year</label>
+                    <label for="year">Year :</label>
                     <input type="text" id="year" size="4" maxlength="4" autofocus>
                 </div>
 
                 <div class="row">
-                    <label for="country"> Choose a country</label>
+                    <label for="country">Country :</label>
                     <select id="country" onmousedown="if(this.options.length>6){this.size=6;}" onchange='this.size=0;'
                         onblur="this.size=0;">
                     </select>
                 </div>
 
-                <button class="row-sumbit" type="submit" class="submit">Enter</button>
+                <button class="row-sumbit" type="submit" class="submit">Search</button>
             </div>
             <div class="show-data">
 
