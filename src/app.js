@@ -1,4 +1,4 @@
-require('env2')('env.json');
+require('env2')('.env');
 const express = require('express');
 const compression = require('compression');
 const path = require('path');
